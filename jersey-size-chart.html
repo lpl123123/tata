@@ -1,0 +1,329 @@
+<!-- Size Chart Section -->
+<style>
+    .size-chart-container {
+        max-width: 900px;
+        margin: 60px auto;
+        padding: 0 20px;
+        font-family: Arial, sans-serif;
+        color: #333;
+        line-height: 1.6;
+    }
+
+    .size-chart-container h1 {
+        text-align: center;
+        font-size: 36px;
+        font-weight: 900;
+        color: #111;
+        margin-bottom: 20px;
+    }
+    
+    .size-chart-container .intro-text {
+        font-size: 18px;
+        text-align: center;
+        color: #555;
+        margin-bottom: 40px;
+    }
+
+    .size-chart-container h2 {
+        font-size: 24px;
+        font-weight: bold;
+        color: #111;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        border-bottom: 2px solid #f1f1f1;
+        padding-bottom: 10px;
+    }
+
+    .size-chart-container p, .size-chart-container li {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    
+    .size-chart-container a {
+        color: #007bff;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    .size-chart-container a:hover {
+        text-decoration: underline;
+    }
+    
+    .how-to-measure {
+        background-color: #f7f7f7;
+        border-radius: 8px;
+        padding: 25px;
+        margin: 30px 0;
+    }
+    
+    .unit-toggle-button {
+        display: block;
+        margin: 0 auto 30px auto;
+        padding: 10px 25px;
+        font-size: 16px;
+        font-weight: bold;
+        background-color: #f1f1f1;
+        color: #333;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    .unit-toggle-button:hover {
+        background-color: #e0e0e0;
+    }
+
+    .table-wrapper {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .size-table {
+        width: 100%;
+        border-collapse: collapse;
+        min-width: 600px;
+    }
+
+    .size-table th, .size-table td {
+        border: 1px solid #ddd;
+        padding: 12px;
+        text-align: center;
+        white-space: nowrap;
+    }
+
+    .size-table th {
+        background-color: #f9f9f9;
+        font-weight: bold;
+    }
+    
+    .size-table tr:nth-child(even) {
+        background-color: #fdfdfd;
+    }
+</style>
+
+<section class="size-chart-container">
+    <h1>Jersey Size Charts</h1>
+    <p class="intro-text">
+        Finding the right fit is key to comfort and style. Use our charts below to determine the best size for you. If you're between sizes or prefer a looser fit, we recommend ordering one size up.
+    </p>
+
+    <div class="how-to-measure">
+        <h3>How to Measure</h3>
+        <ul>
+            <li><strong>Chest/Bust:</strong> Measure around the fullest part of your chest, under the armpits. Keep the tape measure horizontal.</li>
+            <li><strong>Waist:</strong> Measure around your natural waistline, typically the narrowest part of your torso.</li>
+            <li><strong>Hips:</strong> Stand with your feet together and measure around the fullest part of your hips.</li>
+            <li><strong>Length (Kids):</strong> Measure from the highest point of the shoulder down to the bottom hem of the jersey.</li>
+            <li><strong>Suitable for Height (Kids):</strong> Choose the size that best matches your child's height for the most comfortable fit.</li>
+        </ul>
+    </div>
+    
+    <button class="unit-toggle-button" id="unit-toggle">Switch to Centimeters (cm)</button>
+
+    <!-- Men's Jersey Size Chart -->
+    <h2>Men's Jerseys</h2>
+    <div class="table-wrapper">
+        <table class="size-table">
+            <thead>
+                <tr>
+                    <th>Size</th>
+                    <th>U.S. Size</th>
+                    <th>Chest</th>
+                    <th>Waist</th>
+                    <th>Hips</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>S</strong></td>
+                    <td>36</td>
+                    <td class="unit-value" data-inch="35 - 37.5" data-cm="88 - 95">35 - 37.5"</td>
+                    <td class="unit-value" data-inch="29 - 32" data-cm="73 - 81">29 - 32"</td>
+                    <td class="unit-value" data-inch="35 - 37.5" data-cm="88 - 95">35 - 37.5"</td>
+                </tr>
+                <tr>
+                    <td><strong>M</strong></td>
+                    <td>40</td>
+                    <td class="unit-value" data-inch="37.5 - 41" data-cm="95 - 104">37.5 - 41"</td>
+                    <td class="unit-value" data-inch="32 - 35" data-cm="81 - 89">32 - 35"</td>
+                    <td class="unit-value" data-inch="37.5 - 41" data-cm="95 - 104">37.5 - 41"</td>
+                </tr>
+                <tr>
+                    <td><strong>L</strong></td>
+                    <td>44</td>
+                    <td class="unit-value" data-inch="41 - 44" data-cm="104 - 112">41 - 44"</td>
+                    <td class="unit-value" data-inch="35 - 38" data-cm="89 - 97">35 - 38"</td>
+                    <td class="unit-value" data-inch="41 - 44" data-cm="104 - 112">41 - 44"</td>
+                </tr>
+                <tr>
+                    <td><strong>XL</strong></td>
+                    <td>48</td>
+                    <td class="unit-value" data-inch="44 - 48.5" data-cm="112 - 123">44 - 48.5"</td>
+                    <td class="unit-value" data-inch="38 - 43" data-cm="97 - 109">38 - 43"</td>
+                    <td class="unit-value" data-inch="44 - 47" data-cm="112 - 119">44 - 47"</td>
+                </tr>
+                <tr>
+                    <td><strong>2XL</strong></td>
+                    <td>52</td>
+                    <td class="unit-value" data-inch="48.5 - 53.5" data-cm="123 - 136">48.5 - 53.5"</td>
+                    <td class="unit-value" data-inch="43 - 47.5" data-cm="109 - 121">43 - 47.5"</td>
+                    <td class="unit-value" data-inch="47 - 50.5" data-cm="119 - 128">47 - 50.5"</td>
+                </tr>
+                <tr>
+                    <td><strong>3XL</strong></td>
+                    <td>56</td>
+                    <td class="unit-value" data-inch="53.5 - 58" data-cm="136 - 147">53.5 - 58"</td>
+                    <td class="unit-value" data-inch="47.5 - 52.5" data-cm="121 - 133">47.5 - 52.5"</td>
+                    <td class="unit-value" data-inch="50.5 - 53.5" data-cm="128 - 136">50.5 - 53.5"</td>
+                </tr>
+                <tr>
+                    <td><strong>4XL</strong></td>
+                    <td>60</td>
+                    <td class="unit-value" data-inch="58 - 62.5" data-cm="147 - 159">58 - 62.5"</td>
+                    <td class="unit-value" data-inch="52.5 - 57" data-cm="133 - 145">52.5 - 57"</td>
+                    <td class="unit-value" data-inch="53.5 - 56.5" data-cm="136 - 144">53.5 - 56.5"</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Women's Jersey Size Chart -->
+    <h2>Women's Jerseys</h2>
+    <div class="table-wrapper">
+        <table class="size-table">
+             <thead>
+                <tr>
+                    <th>Size</th>
+                    <th>U.S. Size</th>
+                    <th>Bust</th>
+                    <th>Waist</th>
+                    <th>Hips</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>S</strong></td>
+                    <td>4 - 6</td>
+                    <td class="unit-value" data-inch="33.5 - 35" data-cm="85 - 89">33.5 - 35"</td>
+                    <td class="unit-value" data-inch="26.5 - 29" data-cm="67 - 74">26.5 - 29"</td>
+                    <td class="unit-value" data-inch="36.5 - 39" data-cm="93 - 99">36.5 - 39"</td>
+                </tr>
+                <tr>
+                    <td><strong>M</strong></td>
+                    <td>8 - 10</td>
+                    <td class="unit-value" data-inch="35 - 38" data-cm="89 - 97">35 - 38"</td>
+                    <td class="unit-value" data-inch="29 - 31.5" data-cm="74 - 80">29 - 31.5"</td>
+                    <td class="unit-value" data-inch="39 - 41" data-cm="99 - 104">39 - 41"</td>
+                </tr>
+                <tr>
+                    <td><strong>L</strong></td>
+                    <td>12 - 14</td>
+                    <td class="unit-value" data-inch="38 - 41" data-cm="97 - 104">38 - 41"</td>
+                    <td class="unit-value" data-inch="31.5 - 34.5" data-cm="80 - 88">31.5 - 34.5"</td>
+                    <td class="unit-value" data-inch="41 - 44" data-cm="104 - 112">41 - 44"</td>
+                </tr>
+                <tr>
+                    <td><strong>XL</strong></td>
+                    <td>16 - 18</td>
+                    <td class="unit-value" data-inch="41 - 44.5" data-cm="104 - 113">41 - 44.5"</td>
+                    <td class="unit-value" data-inch="34.5 - 38.5" data-cm="88 - 98">34.5 - 38.5"</td>
+                    <td class="unit-value" data-inch="44 - 47" data-cm="112 - 119">44 - 47"</td>
+                </tr>
+                <tr>
+                    <td><strong>2XL</strong></td>
+                    <td>20 - 22</td>
+                    <td class="unit-value" data-inch="44.5 - 48.5" data-cm="113 - 123">44.5 - 48.5"</td>
+                    <td class="unit-value" data-inch="38.5 - 42.5" data-cm="98 - 108">38.5 - 42.5"</td>
+                    <td class="unit-value" data-inch="47 - 50" data-cm="119 - 127">47 - 50"</td>
+                </tr>
+                <tr>
+                    <td><strong>3XL</strong></td>
+                    <td>24 - 26</td>
+                    <td class="unit-value" data-inch="48.5 - 52.5" data-cm="123 - 133">48.5 - 52.5"</td>
+                    <td class="unit-value" data-inch="42.5 - 47" data-cm="108 - 119">42.5 - 47"</td>
+                    <td class="unit-value" data-inch="50 - 54" data-cm="127 - 137">50 - 54"</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Kids Jersey Size Chart (from product size chart) -->
+    <h2>Kids' Jerseys</h2>
+    <div class="table-wrapper">
+        <table class="size-table">
+            <thead>
+                <tr>
+                    <th>Size</th>
+                    <th>Length</th>
+                    <th>Chest</th>
+                    <th>Suitable for Height</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>S</strong></td>
+                    <td class="unit-value" data-inch="22.8" data-cm="58">22.8"</td>
+                    <td class="unit-value" data-inch="34.6" data-cm="88">34.6"</td>
+                    <td class="unit-value" data-inch="53.1 - 56.3" data-cm="135 - 143">53.1 - 56.3"</td>
+                </tr>
+                <tr>
+                    <td><strong>M</strong></td>
+                    <td class="unit-value" data-inch="24.0" data-cm="61">24.0"</td>
+                    <td class="unit-value" data-inch="36.2" data-cm="92">36.2"</td>
+                    <td class="unit-value" data-inch="55.1 - 58.3" data-cm="140 - 148">55.1 - 58.3"</td>
+                </tr>
+                <tr>
+                    <td><strong>L</strong></td>
+                    <td class="unit-value" data-inch="25.2" data-cm="64">25.2"</td>
+                    <td class="unit-value" data-inch="37.8" data-cm="96">37.8"</td>
+                    <td class="unit-value" data-inch="57.1 - 60.2" data-cm="145 - 153">57.1 - 60.2"</td>
+                </tr>
+                <tr>
+                    <td><strong>XL</strong></td>
+                    <td class="unit-value" data-inch="26.4" data-cm="67">26.4"</td>
+                    <td class="unit-value" data-inch="39.4" data-cm="100">39.4"</td>
+                    <td class="unit-value" data-inch="59.1 - 62.2" data-cm="150 - 158">59.1 - 62.2"</td>
+                </tr>
+                <tr>
+                    <td><strong>XXL</strong></td>
+                    <td class="unit-value" data-inch="27.6" data-cm="70">27.6"</td>
+                    <td class="unit-value" data-inch="40.9" data-cm="104">40.9"</td>
+                    <td class="unit-value" data-inch="61.0 - 64.2" data-cm="155 - 163">61.0 - 64.2"</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    <div style="text-align: center; margin-top: 40px;">
+        <p>Still have questions about sizing? Our fan support team is here to help you make the right choice.</p>
+        <p>Contact us at <a href="mailto:sales@ujersery.us"><strong>sales@ujersery.us</strong></a></p>
+    </div>
+
+</section>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const toggleButton = document.getElementById('unit-toggle');
+    const unitCells = document.querySelectorAll('.unit-value');
+    let currentUnit = 'inch';
+
+    if (toggleButton) {
+        toggleButton.addEventListener('click', function() {
+            if (currentUnit === 'inch') {
+                unitCells.forEach(cell => {
+                    cell.textContent = cell.getAttribute('data-cm') + " cm";
+                });
+                toggleButton.textContent = "Switch to Inches (in)";
+                currentUnit = 'cm';
+            } else {
+                unitCells.forEach(cell => {
+                    const inchValue = cell.getAttribute('data-inch');
+                    cell.textContent = inchValue + "\"";
+                });
+                toggleButton.textContent = "Switch to Centimeters (cm)";
+                currentUnit = 'inch';
+            }
+        });
+    }
+});
+</script>
