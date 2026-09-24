@@ -85,7 +85,7 @@ Javier Baez #28 Tigers White Home Jersey | Ujersey
 ```
 Shop Javier Baez's #28 Detroit Tigers white home replica jersey. Navy Old English D, BÁEZ on the back. Sizes S–6XL from $42.99. Order now.
 ```
-Character count: **137**.
+Character count: **138**.
 
 This replaces the current snippet, which Google cuts off at “name and number in”.
 
